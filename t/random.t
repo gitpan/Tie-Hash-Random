@@ -12,8 +12,6 @@ use lib qw( ./lib ../lib  );
 use Scalar::Util qw(looks_like_number);
 require_ok('Tie::Hash::Random');
 
-use Devel::Cover;
-
 my %hash;
 tie %hash, 'Tie::Hash::Random';
 
