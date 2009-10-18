@@ -36,7 +36,7 @@ use vars qw($VERSION @ISA);
 use Tie::Hash;
 use Data::Random qw(:all);
 
-$VERSION = '1.01';
+$VERSION = '1.02';
 @ISA = qw(Tie::Hash);
 
 

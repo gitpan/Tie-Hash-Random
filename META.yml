@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Tie-Hash-Random
-version:            1.01
+version:            1.02
 abstract:           A tied hash that generate random
 author:
     - Matias Alejo Garcia ( matiu@cpan.org ) 
@@ -13,7 +13,7 @@ build_requires:
 requires:
     Data::Random:  ~
     Scalar::Util:  ~
-    Test::More:    ~
+    Test::More:    0.88
 no_index:
     directory:
         - t
